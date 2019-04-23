@@ -1,142 +1,139 @@
-html    
-<p><img src="https://og.github.com/atom-mark/atom-mark@1200x630.png" alt="atom logo" /></p>
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Index markdown to html</title>
+        <style>
+                table, th, td {
+                  border: 1px solid black;
+                }
+                body {
+                    margin: 0;
+                    min-width: 250 px;
+                }
+                </style>
+                <body style="background-image:url(w3s.png)"></body>
+    </head>
+    <body>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fb/Atom_editor_logo_black.svg" alt="">       
+        <p><i>“Whenever you find yourself on the side of the majority, it is time to reform (or pause and reflect).”</i>🚦</p>
+        <h1 style="color:greenyellow;">Atom</h1>
+        <h2>Download link</h2>
+        <a href="https://atom.io/"><p>hier voor download</p></a>
+        <table style="width:100%">
+            <tr>
+                <th>Pro's</th>
+                <th>Contra's</th>
+            </tr>
+            <tr>
+                <th>free</th>
+                <th>slow if you start up</th>
+                <tr>
+                    <th>Nice design, active package (extension) community.</th>
+                    <th>It cannot handle files bigger than a couple MB's</th>
+                </tr>
+                <tr>
+                    <th>Easy to customize the UI </th>
+                    <th>once in awhile the editor freezes during usage</th>
+                </tr>
+        </table>
+        <h3><i> I chose this <b>IDE</b> especially because</i></h3>
+        <ol type="1">
+            <li>It's a complete IDE for free.</li>
+            <li>Search for and install new packages it's easy to do and good to make it more personal</li>
 
-<p><em>“Whenever you find yourself on the side of the majority, it is time to reform (or pause and reflect).”</em> <strong>- Mark Twain</strong>
- :vertical<em>traffic</em>light:</p>
+        </ol>
 
-<pre><code class="ruby language-ruby">require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-</code></pre>
+        <h3>choices</h3>
+        <ul>
+            <h4><li>what I also would choose</h4>
+            <ul class="square">
+             <li>VS studio</li>
+             <li>Brackets</li>
+             <li>webstorm</li>
+            </ul>
+            </li>
+           </ul>
+        
+           <div class="container">
+            <h3>To do List</h3>
+            <ul id="incomplete-tasks">
+              <li><input type="checkbox"><label>An image</label></li>
+              <li><input type="checkbox"><label> An url with custom text</label></li>
+              <li><input type="checkbox"><label>A table</label></li>
+              <li><input type="checkbox"><label>Bold text</label></li>
+              <li><input type="checkbox"><label>Italic text</label></li>
+              <li><input type="checkbox"><label>A non numbered list with subpoints</label></li>
+              <li><input type="checkbox"><label>A qoute</label></li>
+              <li><input type="checkbox"><label>Headers</label></li>
+              <li><input type="checkbox"><label>A code block</label></li>
+              <li><input type="checkbox"><label>A task list</label></li>
+              <li><input type="checkbox"><label>an emoji</label></li>
+            </ul>
+            <code>
+                rubyrequire 'redcarpet'
+                markdown = Redcarpet.new("Hello World!")
+                puts markdown.to_html
+            </code>
+        </div>
+        <h1 style="color:blue;">webstorm</h1>
+        <img src="https://ih0.redbubble.net/image.508419282.2061/st%2Csmall%2C215x235-pad%2C210x230%2Cf8f8f8.lite-1.jpg" alt="">
+        <p><i>"You wanna fuck with me? Okay. You wanna play rough? Okay. Say hello to my little friend!"</i>👹</p>
+        <h2>Download link</h2>
+        <a href="https://www.jetbrains.com/webstorm/download/?gclid=CjwKCAjw7_rlBRBaEiwAc23rhqk7Bo_Kry-NuvhTgOAlxU_squ2E0d64_9zmLFC_7YYiq6TrmGdBtRoCYq8QAvD_BwE&gclsrc=aw.ds#section=linux"><p>hier voor download</p></a>
+        <table style="width:100%">
+            <tr>
+                <th>Pro's</th>
+                <th>Contra's</th>
+            </tr>
+            <tr>
+                <th>Debugger inside the ide</th>
+                <th>slow if you start up</th>
+                <tr>
+                    <th>Nice design, active package (extension) community.</th>
+                    <th>Takes a few seconds to open for the first time</th>
+                </tr>
+                <tr>
+                    <th>Smart/contextual Autocompletion </th>
+                    <th>Cost money</th>
+                </tr>
+        </table>
+        <h3><i> I chose this <b>IDE</b> especially because</i></h3>
+        <ol type="1">
+            <li>It seems a good IDE too work with</li>
+            <li>Not to hard too work with </li>
 
-<h1 id="atom">ATOM</h1>
-
-<h2 id="downloadlink">download link:</h2>
-
-<p><a href="https://atom.io/">druk hier voor download</a></p>
-
-<p>Pro's | Contra's
------------- | -------------
-free | slow if you start it up
-Nice design, active package (extension) community. | It cannot handle files bigger than a couple MB's
-Easy to customize the UI | once in awhile the editor freezes during usage</p>
-
-<h3 id="ichosethisideespeciallybecause"><em>I chose this <strong>IDE</strong> especially because</em>:</h3>
-
-<ol>
-<li>It's a complete IDE for free. </li>
-
-<li>Search for and install new packages it's easy to do and good to make it more personal</li>
-</ol>
-
-<h4 id="opdrachten">opdrachten:</h4>
-
-<ul>
-<li>[x] an image</li>
-
-<li>[X] a url with custom text</li>
-
-<li>[X] a numbered list</li>
-
-<li>[X] a table</li>
-
-<li>[X] bold text</li>
-
-<li>[X] italic text</li>
-
-<li>[X] a non numbered list with subpoints</li>
-
-<li>[X] a qoute</li>
-
-<li>[X] headers</li>
-
-<li>[X] A code block</li>
-
-<li>[X] A task list</li>
-
-<li>[X] An emoji</li>
-</ul>
-
-<h5 id="choices">Choices</h5>
-
-<ul>
-<li>what I also would chose 
-
-
-<ul>
-<li>VS studio</li>
-
-<li>Brackets</li>
-
-<li>Webstorm</li></ul>
-</li>
-</ul>
-
-<pre><code class="ruby language-ruby">require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-</code></pre>
-
-<h1 id="webstorm">Webstorm</h1>
-
-<p><img src="https://pbs.twimg.com/profile_images/674913168284631040/wxfO9U85.png" alt="webstorm logo" />
-<em>"You wanna fuck with me? Okay. You wanna play rough? Okay. Say hello to my little friend!"</em> :japanese_ogre:</p>
-
-<h2 id="download">Download</h2>
-
-<p><a href="https://www.jetbrains.com/webstorm/download/#section=linux">Druk hier voor download</a></p>
-
-<p>+|-
------------- | -------------
-Debugger inside the ide (connect to chrome and firefox debugger)|Takes a few seconds to open for the first time
-Smart/contextual Autocompletion|Tries to reopen a new ide every time you open a file outside a project.
-Console inside the ide|Cost money</p>
-
-<h4 id="whydidichoosethisone"><strong>Why did I choose this one</strong></h4>
-
-<ol>
-<li>It seems a good IDE too work with</li>
-
-<li>Not to hard too work with </li>
-</ol>
-
-<h4 id="opdrachten-1">opdrachten:</h4>
-
-<ul>
-<li>[x] an image</li>
-
-<li>[X] a url with custom text</li>
-
-<li>[X] a numbered list</li>
-
-<li>[X] a table</li>
-
-<li>[X] bold text</li>
-
-<li>[X] italic text</li>
-
-<li>[X] a non numbered list with subpoints</li>
-
-<li>[X] a qoute</li>
-
-<li>[X] headers</li>
-
-<li>[X] A code block</li>
-
-<li>[X] A task list</li>
-
-<li>[X] An emoji</li>
-</ul>
-
-<h5 id="choices-1">Choices</h5>
-
-<ul>
-<li>what I also would chose 
-
-
-<ul>
-<li>VS studio</li>
-
-<li>Brackets</li></ul>
-</li>
-</ul>
+        </ol>
+        
+        <h3>choices</h3>
+        <ul>
+            <h4><li>what I also would choose</h4>
+            <ul class="square">
+             <li>VS studio</li>
+             <li>Brackets</li>
+            </ul>
+            </li>
+           </ul>
+        
+           <div class="container">
+            <h3>To do List</h3>
+            <ul id="incomplete-tasks">
+              <li><input type="checkbox"><label>An image</label></li>
+              <li><input type="checkbox"><label> An url with custom text</label></li>
+              <li><input type="checkbox"><label>A table</label></li>
+              <li><input type="checkbox"><label>Bold text</label></li>
+              <li><input type="checkbox"><label>Italic text</label></li>
+              <li><input type="checkbox"><label>A non numbered list with subpoints</label></li>
+              <li><input type="checkbox"><label>A qoute</label></li>
+              <li><input type="checkbox"><label>Headers</label></li>
+              <li><input type="checkbox"><label>A code block</label></li>
+              <li><input type="checkbox"><label>A task list</label></li>
+              <li><input type="checkbox"><label>an emoji</label></li>
+            </ul>
+        </div>
+        <code>
+                rubyrequire 'redcarpet'
+                markdown = Redcarpet.new("Hello World!")
+                puts markdown.to_html
+                </code>
+    </body>
+</html>
